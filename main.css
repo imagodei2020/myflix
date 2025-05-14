@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /*background-color: black;*/
+    background-image: url("images/movie_collage01.jpg");
+    background-size: cover;
+    backdrop-filter: brightness(40%);
+}
+
+nav {
+    opacity: 1;
+}
+
+.myflix_brand {
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    /*background-color: black;*/
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(110%);
+}
+
+.membership1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.membership2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.membership3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.get_started {
+    width: 15rem;
+}
